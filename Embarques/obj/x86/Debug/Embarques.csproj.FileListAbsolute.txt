@@ -1,0 +1,411 @@
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\Embarques.exe.config
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\Embarques.exe
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\Embarques.pdb
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\BarcodeLib.Barcode.WinForms.dll
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\Utilerias.dll
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.Auth.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetEmb.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetRecibo.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetSplit.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDistEmb.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsFoliosCaducidades.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsPedSur.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsulPedPen.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsultaEmb.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.DetPedCam.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.Form1.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmAltaTrailer.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCambioSuper.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCapPesoBas.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCapPntRev.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCargas.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmDetSplit2.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmFotoTra.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmMensaje.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmRepSplitPed.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmRepSplitResp.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ImprimirSplit.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.MonitorSplit.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.Properties.Resources.resources
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.GenerateResource.Cache
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\RdlCompile.cache
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\RdlCompile.compiled
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.exe
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.pdb
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.csprojResolveAssemblyReference.cache
+\\gabira1\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.Autoriza.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\bin\Debug\Embarques.exe.config
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.exe
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.pdb
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\bin\Debug\Embarques.exe
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\bin\Debug\Embarques.pdb
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\bin\Debug\Utilerias.dll
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.csprojResolveAssemblyReference.cache
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.Auth.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetEmb.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetRecibo.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetSplit.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDistEmb.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.ConsFoliosCaducidades.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.ConsPedSur.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.ConsulPedPen.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.ConsultaEmb.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.Autoriza.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.DetPedCam.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.Form1.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.FrmAltaTrailer.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCambioSuper.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCapPesoBas.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCapPntRev.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCargas.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.FrmDetSplit2.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.FrmFotoTra.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.FrmMensaje.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.FrmRepSplitPed.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.FrmRepSplitResp.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.ImprimirSplit.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.MonitorSplit.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.Properties.Resources.resources
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.GenerateResource.Cache
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\RdlCompile.cache
+C:\Users\personal\Documents\Home Office\Embarques\Embarques\obj\x86\Debug\RdlCompile.compiled
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.csprojResolveAssemblyReference.cache
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.ResolveComReference.cache
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetEmb.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetRecibo.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetSplit.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDistEmb.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsPedSur.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsulPedPen.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsultaEmb.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.Form1.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmAltaTrailer.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCapPesoBas.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCapPntRev.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmDetSplit2.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmFotoTra.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmMensaje.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmRepSplitPed.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmRepSplitResp.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.Properties.Resources.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.GenerateResource.Cache
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\RdlCompile.cache
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\RdlCompile.compiled
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.exe
+C:\Users\juan\source\repos\Embarques\Embarques\bin\Debug\Embarques.exe.config
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.Auth.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.Autoriza.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsFoliosCaducidades.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.DetPedCam.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCambioSuper.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCargas.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.MonitorSplit.resources
+C:\Users\juan\source\repos\Embarques\Embarques\bin\Debug\Embarques.exe
+C:\Users\juan\source\repos\Embarques\Embarques\bin\Debug\Embarques.pdb
+C:\Users\juan\source\repos\Embarques\Embarques\bin\Debug\BarcodeLib.Barcode.WinForms.dll
+C:\Users\juan\source\repos\Embarques\Embarques\bin\Debug\Utilerias.dll
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ImprimirSplit.resources
+C:\Users\juan\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.pdb
+F:\repos2\Embarques\Embarques\bin\Debug\Embarques.exe.config
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.ResolveComReference.cache
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.exe
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.pdb
+F:\repos2\Embarques\Embarques\bin\Debug\Embarques.exe
+F:\repos2\Embarques\Embarques\bin\Debug\Embarques.pdb
+F:\repos2\Embarques\Embarques\bin\Debug\Utilerias.dll
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.csprojResolveAssemblyReference.cache
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.Auth.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.Autoriza.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.autorizacioncliente.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetEmb.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetRecibo.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetSplit.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDistEmb.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.ConsFoliosCaducidades.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.ConsPedSur.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.ConsulPedPen.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.ConsultaEmb.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.DetPedCam.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.Form1.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.FrmAltaTrailer.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCambioSuper.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCapPesoBas.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCapPntRev.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCargas.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.FrmDetSplit2.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.FrmFotoTra.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.FrmMensaje.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.FrmRepSplitPed.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.FrmRepSplitResp.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.ImprimirSplit.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.MonitorSplit.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.Properties.Resources.resources
+F:\repos2\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.GenerateResource.Cache
+F:\repos2\Embarques\Embarques\obj\x86\Debug\RdlCompile.cache
+F:\repos2\Embarques\Embarques\obj\x86\Debug\RdlCompile.compiled
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.csprojResolveAssemblyReference.cache
+D:\repos\Embarques\Embarques\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.ResolveComReference.cache
+D:\repos\Embarques\Embarques\bin\Debug\Embarques.exe.config
+D:\repos\Embarques\Embarques\bin\Debug\Embarques.exe
+D:\repos\Embarques\Embarques\bin\Debug\Embarques.pdb
+D:\repos\Embarques\Embarques\bin\Debug\Utilerias.dll
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.Auth.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.Autoriza.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.autorizacioncliente.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetEmb.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetRecibo.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetSplit.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDistEmb.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsFoliosCaducidades.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsPedSur.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsulPedPen.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsultaEmb.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.DetPedCam.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.Form1.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmAltaTrailer.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCambioSuper.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCapPesoBas.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCapPntRev.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCargas.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmDetSplit2.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmFotoTra.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmMensaje.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmRepSplitPed.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmRepSplitResp.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ImprimirSplit.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.MonitorSplit.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.Properties.Resources.resources
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.GenerateResource.Cache
+D:\repos\Embarques\Embarques\obj\x86\Debug\RdlCompile.cache
+D:\repos\Embarques\Embarques\obj\x86\Debug\RdlCompile.compiled
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.exe
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.pdb
+D:\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmDetalleSplitxHora.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\bin\Debug\Embarques.exe.config
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\bin\Debug\Embarques.exe
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\bin\Debug\Embarques.pdb
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\bin\Debug\BarcodeLib.Barcode.WinForms.dll
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\bin\Debug\Utilerias.dll
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.ResolveComReference.cache
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.Auth.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.Autoriza.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.autorizacioncliente.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetEmb.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetRecibo.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetSplit.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDistEmb.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.ConsFoliosCaducidades.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.ConsPedSur.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.ConsulPedPen.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.ConsultaEmb.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.DetPedCam.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.Form1.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.FormReportePresplit.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.FrmAltaTrailer.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCambioSuper.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCapPesoBas.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCapPntRev.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCargas.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.FrmDetalleSplitxHora.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.FrmDetSplit2.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.FrmFotoTra.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.FrmMensaje.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.FrmRepSplitPed.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.FrmRepSplitResp.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.Geolocalizacion.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.ImprimirSplit.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.MonitorSplit.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.Properties.Resources.resources
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.GenerateResource.cache
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.exe
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.pdb
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.AssemblyReference.cache
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.CoreCompileInputs.cache
+C:\Users\Daniel Muñoz\Desktop\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.CopyComplete
+C:\GitHub\Embarques\Embarques\bin\Debug\Embarques.exe.config
+C:\GitHub\Embarques\Embarques\bin\Debug\Embarques.exe
+C:\GitHub\Embarques\Embarques\bin\Debug\Embarques.pdb
+C:\GitHub\Embarques\Embarques\bin\Debug\BarcodeLib.Barcode.WinForms.dll
+C:\GitHub\Embarques\Embarques\bin\Debug\Utilerias.dll
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.AssemblyReference.cache
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.ResolveComReference.cache
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.Auth.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.Autoriza.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.autorizacioncliente.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetEmb.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetRecibo.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetSplit.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDistEmb.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.ConsFoliosCaducidades.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.ConsPedSur.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.ConsulPedPen.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.ConsultaEmb.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.DetPedCam.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.Form1.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.FormReportePresplit.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.FrmAltaTrailer.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCambioSuper.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCapPesoBas.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCapPntRev.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCargas.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.FrmDetalleSplitxHora.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.FrmDetSplit2.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.FrmFotoTra.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.FrmMensaje.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.FrmRepSplitPed.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.FrmRepSplitResp.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.Geolocalizacion.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.ImprimirSplit.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.MonitorSplit.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.Properties.Resources.resources
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.GenerateResource.cache
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.CoreCompileInputs.cache
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.exe
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.pdb
+C:\GitHub\Embarques\Embarques\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\GitHub\Embarques\Embarques\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\GitHub\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.Up2Date
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.AssemblyReference.cache
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.ResolveComReference.cache
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.Auth.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.Autoriza.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.autorizacioncliente.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetEmb.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetRecibo.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetSplit.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDistEmb.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsFoliosCaducidades.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsPedSur.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsulPedPen.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ConsultaEmb.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.DetPedCam.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.Form1.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FormReportePresplit.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmAltaTrailer.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCambioSuper.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCapPesoBas.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCapPntRev.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCargas.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmDetalleSplitxHora.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmDetSplit2.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmFotoTra.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmMensaje.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmRepSplitPed.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.FrmRepSplitResp.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.Geolocalizacion.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.ImprimirSplit.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.MonitorSplit.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.Properties.Resources.resources
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.GenerateResource.cache
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.CoreCompileInputs.cache
+C:\Users\Ricardo\source\repos\Embarques\Embarques\bin\Debug\Embarques.exe.config
+C:\Users\Ricardo\source\repos\Embarques\Embarques\bin\Debug\Embarques.exe
+C:\Users\Ricardo\source\repos\Embarques\Embarques\bin\Debug\Embarques.pdb
+C:\Users\Ricardo\source\repos\Embarques\Embarques\bin\Debug\BarcodeLib.Barcode.WinForms.dll
+C:\Users\Ricardo\source\repos\Embarques\Embarques\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Ricardo\source\repos\Embarques\Embarques\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Ricardo\source\repos\Embarques\Embarques\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+C:\Users\Ricardo\source\repos\Embarques\Embarques\bin\Debug\Utilerias.dll
+C:\Users\Ricardo\source\repos\Embarques\Embarques\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.CopyComplete
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.exe
+C:\Users\Ricardo\source\repos\Embarques\Embarques\obj\x86\Debug\Embarques.pdb
+C:\GitHub\Otros-Formularios\Embarques\Embarques\bin\Debug\Embarques.exe.config
+C:\GitHub\Otros-Formularios\Embarques\Embarques\bin\Debug\Embarques.exe
+C:\GitHub\Otros-Formularios\Embarques\Embarques\bin\Debug\Embarques.pdb
+C:\GitHub\Otros-Formularios\Embarques\Embarques\bin\Debug\BarcodeLib.Barcode.WinForms.dll
+C:\GitHub\Otros-Formularios\Embarques\Embarques\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\GitHub\Otros-Formularios\Embarques\Embarques\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\GitHub\Otros-Formularios\Embarques\Embarques\bin\Debug\Utilerias.dll
+C:\GitHub\Otros-Formularios\Embarques\Embarques\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.AssemblyReference.cache
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.ResolveComReference.cache
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.Auth.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.Autoriza.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.autorizacioncliente.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetEmb.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetRecibo.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetSplit.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDistEmb.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsFoliosCaducidades.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsPedSur.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsulPedPen.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsultaEmb.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.DetPedCam.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.Form1.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FormReportePresplit.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmAltaTrailer.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCambioSuper.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCapPesoBas.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCapPntRev.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCargas.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmDetalleSplitxHora.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmDetSplit2.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmFotoTra.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmMensaje.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmRepSplitPed.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmRepSplitResp.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.Geolocalizacion.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ImprimirSplit.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.MonitorSplit.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.Properties.Resources.resources
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.GenerateResource.cache
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.CoreCompileInputs.cache
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.Up2Date
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.exe
+C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.pdb
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\Embarques.exe
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\Utilerias.dll
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\Embarques.exe.config
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\Microsoft.ReportViewer.Common.dll
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.AssemblyReference.cache
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.ResolveComReference.cache
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.Auth.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.Autoriza.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.autorizacioncliente.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetEmb.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetRecibo.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDetSplit.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsDistEmb.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsFoliosCaducidades.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsPedSur.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsulPedPen.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ConsultaEmb.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.DetPedCam.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.Form1.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FormReportePresplit.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmAltaTrailer.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCambioSuper.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCapPesoBas.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCapPntRev.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmCargas.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmDetalleSplitxHora.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmDetSplit2.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmFotoTra.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmMensaje.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmRepSplitPed.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.FrmRepSplitResp.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.Geolocalizacion.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.ImprimirSplit.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.MonitorSplit.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.Properties.Resources.resources
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.GenerateResource.cache
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.CoreCompileInputs.cache
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.Up2Date
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.exe
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.pdb
+\\gabira1\respsistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
+\\gabira1\respsistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\Embarques.pdb

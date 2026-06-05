@@ -1,0 +1,488 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9FB2D940-F475-4B67-8005-01C2B631535B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Embarques</RootNamespace>
+    <AssemblyName>Embarques</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>LogoMrlucky.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="BarcodeLib.Barcode.WinForms, Version=5.0.0.50227, Culture=neutral, PublicKeyToken=ef1bae04ecfd0461, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\SisGabWeb\BarcodeLib.Barcode.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.Core">
+      <HintPath>D:\repos\RecorridosVigilanciaEscritorio\RecorridosVigilanciaEscritorio\Gmap\GMap.NET.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsForms">
+      <HintPath>D:\repos\RecorridosVigilanciaEscritorio\RecorridosVigilanciaEscritorio\Gmap\GMap.NET.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>C:\SisGabWeb\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Utilerias">
+      <HintPath>C:\SisGabWeb\Utilerias.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Auth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Auth.Designer.cs">
+      <DependentUpon>Auth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Autoriza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autoriza.Designer.cs">
+      <DependentUpon>Autoriza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="autorizacioncliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="autorizacioncliente.Designer.cs">
+      <DependentUpon>autorizacioncliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsDetEmb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsDetEmb.Designer.cs">
+      <DependentUpon>ConsDetEmb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsDetEmb1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConsDetEmb.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ConsDetRecibo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsDetRecibo.Designer.cs">
+      <DependentUpon>ConsDetRecibo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsDetSplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsDetSplit.Designer.cs">
+      <DependentUpon>ConsDetSplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsDistEmb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsDistEmb.Designer.cs">
+      <DependentUpon>ConsDistEmb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsFoliosCaducidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsFoliosCaducidades.Designer.cs">
+      <DependentUpon>ConsFoliosCaducidades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsPedSur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsPedSur.Designer.cs">
+      <DependentUpon>ConsPedSur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsulPedPen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsulPedPen.Designer.cs">
+      <DependentUpon>ConsulPedPen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaEmb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaEmb.Designer.cs">
+      <DependentUpon>ConsultaEmb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DetPedCam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetPedCam.Designer.cs">
+      <DependentUpon>DetPedCam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReportePresplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReportePresplit.Designer.cs">
+      <DependentUpon>FormReportePresplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAltaTrailer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAltaTrailer.Designer.cs">
+      <DependentUpon>FrmAltaTrailer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCambioSuper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCambioSuper.Designer.cs">
+      <DependentUpon>FrmCambioSuper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCapPesoBas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCapPesoBas.Designer.cs">
+      <DependentUpon>FrmCapPesoBas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCapPntRev.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCapPntRev.Designer.cs">
+      <DependentUpon>FrmCapPntRev.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCargas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCargas.Designer.cs">
+      <DependentUpon>FrmCargas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDetalleSplitxHora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDetalleSplitxHora.Designer.cs">
+      <DependentUpon>FrmDetalleSplitxHora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDetSplit2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDetSplit2.Designer.cs">
+      <DependentUpon>FrmDetSplit2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFotoTra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFotoTra.Designer.cs">
+      <DependentUpon>FrmFotoTra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMensaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMensaje.Designer.cs">
+      <DependentUpon>FrmMensaje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRepSplitPed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRepSplitPed.Designer.cs">
+      <DependentUpon>FrmRepSplitPed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRepSplitResp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRepSplitResp.Designer.cs">
+      <DependentUpon>FrmRepSplitResp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Geolocalizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Geolocalizacion.Designer.cs">
+      <DependentUpon>Geolocalizacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImprimirSplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImprimirSplit.Designer.cs">
+      <DependentUpon>ImprimirSplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonitorSplit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonitorSplit.Designer.cs">
+      <DependentUpon>MonitorSplit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Auth.resx">
+      <DependentUpon>Auth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Autoriza.resx">
+      <DependentUpon>Autoriza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="autorizacioncliente.resx">
+      <DependentUpon>autorizacioncliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsDetEmb.resx">
+      <DependentUpon>ConsDetEmb.cs</DependentUpon>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>ConsDetEmb1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsDetRecibo.resx">
+      <DependentUpon>ConsDetRecibo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsDetSplit.resx">
+      <DependentUpon>ConsDetSplit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsDistEmb.resx">
+      <DependentUpon>ConsDistEmb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsFoliosCaducidades.resx">
+      <DependentUpon>ConsFoliosCaducidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsPedSur.resx">
+      <DependentUpon>ConsPedSur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsulPedPen.resx">
+      <DependentUpon>ConsulPedPen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaEmb.resx">
+      <DependentUpon>ConsultaEmb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetPedCam.resx">
+      <DependentUpon>DetPedCam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReportePresplit.resx">
+      <DependentUpon>FormReportePresplit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAltaTrailer.resx">
+      <DependentUpon>FrmAltaTrailer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCambioSuper.resx">
+      <DependentUpon>FrmCambioSuper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCapPesoBas.resx">
+      <DependentUpon>FrmCapPesoBas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCapPntRev.resx">
+      <DependentUpon>FrmCapPntRev.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCargas.resx">
+      <DependentUpon>FrmCargas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDetalleSplitxHora.resx">
+      <DependentUpon>FrmDetalleSplitxHora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDetSplit2.resx">
+      <DependentUpon>FrmDetSplit2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFotoTra.resx">
+      <DependentUpon>FrmFotoTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMensaje.resx">
+      <DependentUpon>FrmMensaje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRepSplitPed.resx">
+      <DependentUpon>FrmRepSplitPed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRepSplitResp.resx">
+      <DependentUpon>FrmRepSplitResp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Geolocalizacion.resx">
+      <DependentUpon>Geolocalizacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImprimirSplit.resx">
+      <DependentUpon>ImprimirSplit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonitorSplit.resx">
+      <DependentUpon>MonitorSplit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RepPedVsSurtido.rdlc" />
+    <None Include="app.config" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnConsulta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botonImprimir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Degradado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aplicar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CHECKMRK.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TRAILER.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cajas2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_index.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Degradado1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ExcelMini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trailer3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TRAILER4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnRojo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnVerde.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnGuardarMini.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnSalir Mini.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnAltaMini.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acomodotrailer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buscar Mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ajax-loader.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cargando.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LogoMrlucky.ico" />
+    <None Include="Resources\AGREGAR.png" />
+    <None Include="Resources\RETIRAR.png" />
+    <None Include="Resources\icons8-cancelar-48.png" />
+    <Content Include="Resources\save.png" />
+    <None Include="Resources\save1.png" />
+    <None Include="Resources\BtnConsultaPreSplit.jpg" />
+    <None Include="Resources\botonImprimirEmergencia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>4</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
