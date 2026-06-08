@@ -126,7 +126,8 @@ namespace Embarques
                 cmdadicional = new SqlCommand(CadenaAdicional);
                 cmdadicional.Connection = thisConnecion;
                 SqlDataReader InfoAdicional;
-                thisConnecion.Open();
+                if (thisConnecion.State != ConnectionState.Open)
+                    thisConnecion.Open();
                 InfoAdicional = cmdadicional.ExecuteReader();
                 if (InfoAdicional.HasRows == true)
                 {
@@ -136,7 +137,7 @@ namespace Embarques
             }
         }
 
-        private void LLenaPed(string Mpedido, string mTip)
+        private void LLenaPedLegacy(string Mpedido, string mTip)
         {
             LblPed.Text = "Pedido: " + Mpedido;
             DataTable Surtido = new DataTable();
@@ -225,6 +226,188 @@ namespace Embarques
             TxtTotP.Text = TotP.ToString("#,###");
             TxtTotS.Text = TotS.ToString("#,###");
             LblAvance.Text = ((Convert.ToDecimal(TotS)) / (Convert.ToDecimal(TotP))).ToString("##0 %");
+            DGDetPed.DataSource = DetPed;
+        }
+
+        private void LLenaPed(string Mpedido, string mTip)
+        {
+            Int32 TotS = 0, TotP = 0;
+            LblPed.Text = "Pedido: " + Mpedido;
+            DataTable Surtido = new DataTable();
+
+            if (DetPed.Rows.Count > 0)
+                DetPed.Rows.Clear();
+
+            // Asegurar que la conexión esté abierta (como se hacía originalmente)
+            if (thisConnecion.State != ConnectionState.Open)
+                thisConnecion.Open();
+
+            try
+            {
+                // ------------------------------------------------------------
+                // 1. Cargar todos los nombres de producto en un diccionario
+                //    (evita llamadas a TraeProd y problemas con apóstrofes)
+                // ------------------------------------------------------------
+                Dictionary<string, string> nombresProductos = new Dictionary<string, string>();
+                string sqlNombres = "SELECT PROD_CLAVE, PROD_NOMBRE FROM TB_CAT_PRODUCTO";
+                using (SqlCommand cmdNombres = new SqlCommand(sqlNombres, thisConnecion))
+                using (SqlDataReader readerNombres = cmdNombres.ExecuteReader())
+                {
+                    while (readerNombres.Read())
+                    {
+                        nombresProductos[readerNombres["PROD_CLAVE"].ToString()] = readerNombres["PROD_NOMBRE"].ToString();
+                    }
+                }
+
+                // ------------------------------------------------------------
+                // 2. Obtener cantidades surtidas desde tb_det_embarque
+                // ------------------------------------------------------------
+                string sqlSurtido = @"
+            SELECT PROD_CLAVE, SUM(CAJAS) AS SURTIDO 
+            FROM tb_det_embarque 
+            WHERE emb_folio = @folio AND ESTATUS <> 'C' 
+            GROUP BY PROD_CLAVE";
+
+                using (SqlCommand cmdSurtido = new SqlCommand(sqlSurtido, thisConnecion))
+                {
+                    cmdSurtido.Parameters.AddWithValue("@folio", Mpedido.PadLeft(6, '0'));
+                    using (SqlDataAdapter da = new SqlDataAdapter(cmdSurtido))
+                    {
+                        da.Fill(Surtido);
+                    }
+                }
+
+                // ------------------------------------------------------------
+                // 3. Obtener cantidades desde tb_det_split
+                // ------------------------------------------------------------
+                DataTable Split = new DataTable();
+                string sqlSplit = @"
+            SELECT PROD_CLAVE, SUM(CAJAS) AS SURTIDO 
+            FROM tb_det_split 
+            WHERE emb_folio = @folio AND ESTATUS = 'A' 
+            GROUP BY PROD_CLAVE";
+
+                using (SqlCommand cmdSplit = new SqlCommand(sqlSplit, thisConnecion))
+                {
+                    cmdSplit.Parameters.AddWithValue("@folio", Mpedido.PadLeft(6, '0'));
+                    using (SqlDataAdapter da = new SqlDataAdapter(cmdSplit))
+                    {
+                        da.Fill(Split);
+                    }
+                }
+
+                // Diccionario para acceso rápido a los splits
+                Dictionary<string, int> splitPorProducto = new Dictionary<string, int>();
+                foreach (DataRow rowSplit in Split.Rows)
+                {
+                    splitPorProducto[rowSplit["prod_clave"].ToString()] = Convert.ToInt32(rowSplit["SURTIDO"]);
+                }
+
+                // ------------------------------------------------------------
+                // 4. Detalle del pedido (con JOIN para obtener el nombre directamente)
+                // ------------------------------------------------------------
+                DataTable DETPED = new DataTable();
+                string sqlDetPed = @"
+            SELECT A.PROD_CLAVE, A.PDN_NUM_UNIDADES, B.PROD_NOMBRE 
+            FROM TB_DET_PEDIDOS A 
+            INNER JOIN TB_CAT_PRODUCTO B ON A.PROD_CLAVE = B.PROD_CLAVE 
+            WHERE A.PDN_FOLIO = @folio AND A.pdn_tipo = @tipo 
+            ORDER BY B.PROD_NOMBRE";
+
+                using (SqlCommand cmdDetPed = new SqlCommand(sqlDetPed, thisConnecion))
+                {
+                    cmdDetPed.Parameters.AddWithValue("@folio", Mpedido.PadLeft(6, '0'));
+                    cmdDetPed.Parameters.AddWithValue("@tipo", mTip);
+                    using (SqlDataAdapter da = new SqlDataAdapter(cmdDetPed))
+                    {
+                        da.Fill(DETPED);
+                    }
+                }
+
+                // ------------------------------------------------------------
+                // 5. Recorrer los productos del pedido
+                // ------------------------------------------------------------
+                foreach (DataRow rowPed in DETPED.Rows)
+                {
+                    string prodClave = rowPed["PROD_CLAVE"].ToString();
+                    int cantidadPedido = Convert.ToInt32(rowPed["PDN_NUM_UNIDADES"]);
+                    int cantidadSurtida = 0;
+
+                    // Buscar en Surtido
+                    DataRow[] surtidoRows = Surtido.Select("prod_clave = '" + prodClave + "'");
+                    if (surtidoRows.Length > 0)
+                        cantidadSurtida = Convert.ToInt32(surtidoRows[0]["SURTIDO"]);
+
+                    TotS += cantidadSurtida;
+                    TotP += cantidadPedido;
+
+                    // Calcular existencia (ajustar según tu lógica real)
+                    int existencia = 0;
+                    DataRow[] invRows = Inven.Select("prod_clave = '" + prodClave + "'");
+                    if (invRows.Length > 0)
+                    {
+                        int disponible = Convert.ToInt32(invRows[0]["CANTIDAD"]) - Convert.ToInt32(invRows[0]["SURTIDO"]);
+                        existencia = disponible + cantidadPedido - cantidadSurtida;
+                    }
+
+                    int TSplit = splitPorProducto.ContainsKey(prodClave) ? splitPorProducto[prodClave] : 0;
+                    string prodNombre = nombresProductos.ContainsKey(prodClave) ? nombresProductos[prodClave] : "S/N";
+
+                    DetPed.Rows.Add(
+                        prodClave,
+                        prodNombre,
+                        cantidadPedido.ToString("#,###"),
+                        cantidadSurtida.ToString("#,##0"),
+                        TSplit.ToString("#,###"),
+                        existencia.ToString("#,##0")
+                    );
+                }
+
+                // ------------------------------------------------------------
+                // 6. Productos surtidos que NO están en el pedido original
+                // ------------------------------------------------------------
+                foreach (DataRow rowSurt in Surtido.Rows)
+                {
+                    string prodClave = rowSurt["prod_CLAVE"].ToString();
+                    if (DETPED.Select("prod_clave = '" + prodClave + "'").Length == 0)
+                    {
+                        int cantidadSurtida = Convert.ToInt32(rowSurt["SURTIDO"]);
+                        TotS += cantidadSurtida;
+
+                        int existencia = 0;
+                        DataRow[] invRows = Inven.Select("prod_clave = '" + prodClave + "'");
+                        if (invRows.Length > 0)
+                        {
+                            existencia = Convert.ToInt32(invRows[0]["CANTIDAD"]) - Convert.ToInt32(invRows[0]["SURTIDO"]);
+                        }
+
+                        int TSplit = splitPorProducto.ContainsKey(prodClave) ? splitPorProducto[prodClave] : 0;
+                        string prodNombre = nombresProductos.ContainsKey(prodClave) ? nombresProductos[prodClave] : "S/N";
+
+                        DetPed.Rows.Add(
+                            prodClave,
+                            prodNombre,
+                            0,
+                            cantidadSurtida.ToString("#,##0"),
+                            TSplit.ToString("#,###"),
+                            existencia.ToString("#,##0")
+                        );
+                    }
+                }
+            }
+            finally
+            {
+                // Si el método original cerraba la conexión, descomenta la siguiente línea:
+                // if (thisConnecion.State == ConnectionState.Open) thisConnecion.Close();
+            }
+
+            // ------------------------------------------------------------
+            // 7. Actualizar controles de la interfaz
+            // ------------------------------------------------------------
+            TxtTotP.Text = TotP.ToString("#,###");
+            TxtTotS.Text = TotS.ToString("#,###");
+            LblAvance.Text = (TotP > 0 ? ((decimal)TotS / TotP).ToString("##0 %") : "0 %");
+
             DGDetPed.DataSource = DetPed;
         }
 

@@ -2536,7 +2536,7 @@ namespace Embarques
             //da.Fill(ds, "Obs");  
             //DataTable ObsTra = new DataTable();
             //ObsTra = ds.Tables["OBS"];
-            Cadena = "SELECT CONSE,FECHA,TURNO,RESPONSABLE,TEMP,HORAREGVIG,HORAENT,HORASAL,TIEMPOTOT,CHOFER,DESTINO,HORAINI,HORAFIN,TiempoCar,ANDEN,TRANSPORTE,NO_TRAILER,LARGO,SURTIBLE,PLACA,RADIO,OBSTRANS,OBSCAUSA,OBSFALTA,PDN_FOLIO, PESO FROM TB_MSTR_TRAILER WHERE FECHA = '" + mfec + "' AND CONSE > 0 ORDER BY FECHA,CONSE ";
+            Cadena = "SELECT CONSE,FECHA,TURNO,RESPONSABLE,TEMP,HORAREGVIG,HORAENT,HORASAL,TIEMPOTOT,CHOFER,DESTINO,HORAINI,HORAFIN,TiempoCar,ANDEN,TRANSPORTE,NO_TRAILER,LARGO,SURTIBLE,PLACA,RADIO,OBSTRANS,OBSCAUSA,OBSFALTA,PDN_FOLIO, PESO, OBS FROM TB_MSTR_TRAILER WHERE FECHA = '" + mfec + "' AND CONSE > 0 ORDER BY FECHA,CONSE ";
             //string Cadena = "SELECT FECHA,TURNO,RESPONSABLE,CHOFER,DESTINO,HORAINI,HORAFIN,ANDEN,TRANSPORTE,NO_TRAILER,LARGOTRA FROM TB_MSTR_TRAILER WHERE FECHA = '" + mfec + "'"; // AND CONSE > 0 ORDER BY FECHA,CONSE ";
             //MessageBox.Show(Cadena);
             ds = new DataSet();
@@ -2587,7 +2587,8 @@ namespace Embarques
                 DGTmpEmp.Rows.Add(Info["Conse"].ToString(), Info["Fecha"].ToString().Substring(0, 10), Info["Turno"].ToString(), CveResp(Info["Responsable"].ToString()), Info["temp"].ToString(), Info["HoraRegVig"].ToString(),
                                   Info["HoraEnt"].ToString(), Info["HoraSal"].ToString(), tmp, Info["CHOFER"].ToString(), Info["DESTINO"].ToString(),
                                   HI, HF, TmpCar, Info["Anden"].ToString(), Info["transporte"].ToString(),
-                                  Info["no_trailer"].ToString(), Mped, Info["largo"].ToString().TrimStart(), VarSur, Info["PLACA"].ToString(), Info["RADIO"].ToString(), Mporce, Info["PDN_FOLIO"].ToString(), mEla, Info["Peso"], salidamax);
+                                  Info["no_trailer"].ToString(), Mped, Info["largo"].ToString().TrimStart(), VarSur, Info["PLACA"].ToString(), Info["RADIO"].ToString(), Mporce, Info["PDN_FOLIO"].ToString(), mEla, Info["Peso"], salidamax,
+                                  Info["OBS"].ToString().Trim());
                 //Convert.ToString(Info["TiempoCar"])
                 // quiete la condicion de grabar las observaciones del cierre del embarque en las observaciones del trailer
                 //String mObs = "";
@@ -3973,15 +3974,15 @@ namespace Embarques
 
             //int count = MiDataGrid.ColumnCount;
             excel.Cells[1, 1] = "Comercializadora GAB s.a. de c.v.";
-            excel.Range[excel.Cells[1, 1], excel.Cells[1, 10]].Merge();
+            excel.Range[excel.Cells[1, 1], excel.Cells[1, 11]].Merge();
             excel.Cells[1, 1].HorizontalAlignment = Microsoft.Office.Interop.Excel.XlHAlign.xlHAlignCenter;
             excel.Cells[2, 1] = "LOGISTICA DE TRAILERS";
-            excel.Range[excel.Cells[2, 1], excel.Cells[2, 10]].Merge();
+            excel.Range[excel.Cells[2, 1], excel.Cells[2, 11]].Merge();
             excel.Cells[2, 1].HorizontalAlignment = Microsoft.Office.Interop.Excel.XlHAlign.xlHAlignCenter;
             excel.Cells[3, 1] = "Control de Hora de Carga de Tráiler";
-            excel.Range[excel.Cells[3, 1], excel.Cells[3, 10]].Merge();
+            excel.Range[excel.Cells[3, 1], excel.Cells[3, 11]].Merge();
             excel.Cells[3, 1].HorizontalAlignment = Microsoft.Office.Interop.Excel.XlHAlign.xlHAlignCenter;
-            r = excel.Range[excel.Cells[3, 1], excel.Cells[3, 10]];
+            r = excel.Range[excel.Cells[3, 1], excel.Cells[3, 11]];
             r.Font.Size = 14;
             //r = excelWorksheet.get_Range("A1", "R1");
             //r.Font.Bold = true;
@@ -3992,8 +3993,8 @@ namespace Embarques
             excel.Cells[7, 1] = "No."; excel.Cells[7, 2] = "Fecha"; excel.Cells[7, 3] = "Turno"; excel.Cells[7, 4] = "Sup. Carga"; excel.Cells[7, 5] = "Temp"; excel.Cells[7, 6] = "Hr.Llego"; excel.Cells[7, 7] = "Hr.Entro";
             excel.Cells[7, 8] = "Hr.Salio"; excel.Cells[7, 9] = "Tiempo Total"; excel.Cells[7, 10] = "Chofer"; excel.Cells[7, 11] = "Destino"; excel.Cells[7, 12] = "Ini. Carga"; excel.Cells[7, 13] = "Fin. Carga";
             excel.Cells[7, 14] = "Tiempo Carga"; excel.Cells[7, 15] = "Anden"; excel.Cells[7, 16] = "Transporte"; excel.Cells[7, 17] = "Placa Caja"; excel.Cells[7, 18] = "Placa Trailer"; excel.Cells[7, 19] = "Radio";
-            excel.Cells[7, 20] = "OBS. TRANSPORTE"; excel.Cells[7, 21] = "CAUSA"; excel.Cells[7, 22] = "FALTANTES"; excel.Cells[7, 23] = "ELABORO"; excel.Cells[7, 24] = "Hora Estimada Salida Ventas";
-            r = excel.Range[excel.Cells[7, 1], excel.Cells[7, 24]];
+            excel.Cells[7, 20] = "OBS. TRANSPORTE"; excel.Cells[7, 21] = "CAUSA"; excel.Cells[7, 22] = "FALTANTES"; excel.Cells[7, 23] = "ELABORO"; excel.Cells[7, 24] = "Hora Estimada Salida Ventas"; excel.Cells[7,25]="OBS. TARDE";
+            r = excel.Range[excel.Cells[7, 1], excel.Cells[7, 25]];
             r.Font.Bold = true;
             //for (i = 0; i < dataGridView1.Rows.Count; i++)
             //{
@@ -4036,6 +4037,7 @@ namespace Embarques
                 }
                 excel.Cells[i, 23] = DGTmpEmp.Rows[j].Cells["ELABORO"].Value.ToString();
                 excel.Cells[i, 24] = DGTmpEmp.Rows[j].Cells["salmax"].Value.ToString();
+                excel.Cells[i, 25] = DGTmpEmp.Rows[j].Cells["obsTrailer"].Value?.ToString() ?? "";
                 //r = excel.Range[excel.Cells[i, 1], excel.Cells[i, 5]];
                 //r.Interior.Color = System.Drawing.ColorTranslator.ToOle(System.Drawing.Color.Yellow);
                 i++;

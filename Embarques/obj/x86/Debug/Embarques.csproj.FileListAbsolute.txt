@@ -365,11 +365,12 @@ C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.C
 C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.Up2Date
 C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.exe
 C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.pdb
-\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\Embarques.exe
-\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\Utilerias.dll
 \\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\Embarques.exe.config
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\Embarques.exe
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\Embarques.pdb
 \\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\Microsoft.ReportViewer.Common.dll
 \\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+\\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\Utilerias.dll
 \\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.AssemblyReference.cache
 \\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
 \\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.ResolveComReference.cache
@@ -407,5 +408,3 @@ C:\GitHub\Otros-Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.pdb
 \\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.csproj.Up2Date
 \\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.exe
 \\gabira1\RespSistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\obj\x86\Debug\Embarques.pdb
-\\gabira1\respsistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\es\Microsoft.VisualBasic.PowerPacks.Vs.resources.dll
-\\gabira1\respsistemas1\SisGabWeb\SisGabWeb\SIPGAB\Otros Formularios\Embarques\Embarques\bin\Debug\Embarques.pdb
