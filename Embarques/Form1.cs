@@ -4031,7 +4031,10 @@ namespace Embarques
                 excel.Cells[i, 19] = DGTmpEmp.Rows[j].Cells["RADIOEMB"].Value.ToString();
                 foreach (DataRow row1 in TiemposEmb.Select("CONSE = '" + DGTmpEmp.Rows[j].Cells["CONSE"].Value.ToString() + "'"))
                 {
-                    excel.Cells[i, 20] = row1["ObsTrans"].ToString();
+                    string obsTrailer = DGTmpEmp.Rows[j].Cells["obsTrailer"].Value?.ToString();
+
+                    excel.Cells[i, 20] = row1["ObsTrans"].ToString() + (!string.IsNullOrEmpty(obsTrailer) ? " | " + obsTrailer : "");
+                    //excel.Cells[i, 20] = row1["ObsTrans"].ToString() + " | " + DGTmpEmp.Rows[j].Cells["obsTrailer"].Value?.ToString() ?? "";
                     excel.Cells[i, 21] = row1["ObsCausa"].ToString();
                     excel.Cells[i, 22] = row1["ObsFalta"].ToString();
                 }
