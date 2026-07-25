@@ -1,7 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\",
+  "WorkspaceRootPath": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\",
   "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FB2D940-F475-4B67-8005-01C2B631535B}|Embarques\\Embarques.csproj|\\\\gabira1\\respsistemas1\\sisgabweb\\sisgabweb\\sipgab\\otros formularios\\embarques\\embarques\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
     {
       "AbsoluteMoniker": "D:0:0:{9FB2D940-F475-4B67-8005-01C2B631535B}|Embarques\\Embarques.csproj|\\\\gabira1\\respsistemas1\\sisgabweb\\sisgabweb\\sipgab\\otros formularios\\embarques\\embarques\\consdistemb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,9 +36,6 @@
       "AbsoluteMoniker": "D:0:0:{9FB2D940-F475-4B67-8005-01C2B631535B}|Embarques\\Embarques.csproj|\\\\gabira1\\respsistemas1\\sisgabweb\\sisgabweb\\sipgab\\otros formularios\\embarques\\embarques\\frmaltatrailer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9FB2D940-F475-4B67-8005-01C2B631535B}|Embarques\\Embarques.csproj|\\\\gabira1\\respsistemas1\\sisgabweb\\sisgabweb\\sipgab\\otros formularios\\embarques\\embarques\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9FB2D940-F475-4B67-8005-01C2B631535B}|Embarques\\Embarques.csproj|\\\\gabira1\\respsistemas1\\sisgabweb\\sisgabweb\\sipgab\\otros formularios\\embarques\\embarques\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -52,52 +52,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConsDistEmb.cs",
-              "DocumentMoniker": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsDistEmb.cs",
-              "RelativeDocumentMoniker": "Embarques\\ConsDistEmb.cs",
-              "ToolTip": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsDistEmb.cs",
-              "RelativeToolTip": "Embarques\\ConsDistEmb.cs",
-              "ViewState": "AgIAAKAIAAAAAAAAAAA2wLUIAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T15:52:05.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConsDistEmb.cs [Dise\u00F1o]",
-              "DocumentMoniker": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsDistEmb.cs",
-              "RelativeDocumentMoniker": "Embarques\\ConsDistEmb.cs",
-              "ToolTip": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsDistEmb.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Embarques\\ConsDistEmb.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T15:51:54.814Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ConsDetEmb.cs [Dise\u00F1o]",
-              "DocumentMoniker": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsDetEmb.cs",
-              "RelativeDocumentMoniker": "Embarques\\ConsDetEmb.cs",
-              "ToolTip": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsDetEmb.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Embarques\\ConsDetEmb.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T15:51:48.814Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ConsultaEmb.cs",
-              "DocumentMoniker": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsultaEmb.cs",
+              "DocumentMoniker": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsultaEmb.cs",
               "RelativeDocumentMoniker": "Embarques\\ConsultaEmb.cs",
-              "ToolTip": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsultaEmb.cs",
+              "ToolTip": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsultaEmb.cs",
               "RelativeToolTip": "Embarques\\ConsultaEmb.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAqwDoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -106,11 +69,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Auth.cs",
-              "DocumentMoniker": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Auth.cs",
+              "DocumentMoniker": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Auth.cs",
               "RelativeDocumentMoniker": "Embarques\\Auth.cs",
-              "ToolTip": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Auth.cs",
+              "ToolTip": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Auth.cs",
               "RelativeToolTip": "Embarques\\Auth.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAxwCgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -118,11 +81,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Autoriza.cs",
-              "DocumentMoniker": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Autoriza.cs",
+              "DocumentMoniker": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Autoriza.cs",
               "RelativeDocumentMoniker": "Embarques\\Autoriza.cs",
-              "ToolTip": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Autoriza.cs",
+              "ToolTip": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Autoriza.cs",
               "RelativeToolTip": "Embarques\\Autoriza.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -130,9 +93,9 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Autoriza.cs [Dise\u00F1o]",
-              "DocumentMoniker": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Autoriza.cs",
+              "DocumentMoniker": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Autoriza.cs",
               "RelativeDocumentMoniker": "Embarques\\Autoriza.cs",
               "ToolTip": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Autoriza.cs [Dise\u00F1o]",
               "RelativeToolTip": "Embarques\\Autoriza.cs [Dise\u00F1o]",
@@ -141,9 +104,9 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Auth.cs [Dise\u00F1o]",
-              "DocumentMoniker": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Auth.cs",
+              "DocumentMoniker": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Auth.cs",
               "RelativeDocumentMoniker": "Embarques\\Auth.cs",
               "ToolTip": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Auth.cs [Dise\u00F1o]",
               "RelativeToolTip": "Embarques\\Auth.cs [Dise\u00F1o]",
@@ -152,11 +115,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ConsPedSur.cs",
-              "DocumentMoniker": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsPedSur.cs",
+              "DocumentMoniker": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsPedSur.cs",
               "RelativeDocumentMoniker": "Embarques\\ConsPedSur.cs",
-              "ToolTip": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsPedSur.cs",
+              "ToolTip": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsPedSur.cs",
               "RelativeToolTip": "Embarques\\ConsPedSur.cs",
               "ViewState": "AgIAAE8AAAAAAAAAAAAqwFkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -165,15 +128,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Form1.cs",
+              "DocumentMoniker": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Form1.cs",
               "RelativeDocumentMoniker": "Embarques\\Form1.cs",
-              "ToolTip": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Form1.cs",
+              "ToolTip": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Form1.cs",
               "RelativeToolTip": "Embarques\\Form1.cs",
-              "ViewState": "AgIAAH0NAAAAAAAAAAAzwJsRAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAPwEAAAAAAAAAIA/wIYFAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T18:11:43.688Z"
+              "WhenOpened": "2026-06-08T18:11:43.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConsDetEmb.cs [Dise\u00F1o]",
+              "DocumentMoniker": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsDetEmb.cs",
+              "RelativeDocumentMoniker": "Embarques\\ConsDetEmb.cs",
+              "ToolTip": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsDetEmb.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Embarques\\ConsDetEmb.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T15:51:48.814Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsDistEmb.cs",
+              "DocumentMoniker": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsDistEmb.cs",
+              "RelativeDocumentMoniker": "Embarques\\ConsDistEmb.cs",
+              "ToolTip": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsDistEmb.cs",
+              "RelativeToolTip": "Embarques\\ConsDistEmb.cs",
+              "ViewState": "AgIAAJAIAAAAAAAAAAAiwKwIAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T15:52:05.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConsDistEmb.cs [Dise\u00F1o]",
+              "DocumentMoniker": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsDistEmb.cs",
+              "RelativeDocumentMoniker": "Embarques\\ConsDistEmb.cs",
+              "ToolTip": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsDistEmb.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Embarques\\ConsDistEmb.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-06T15:51:54.814Z"
             },
             {
               "$type": "Document",
@@ -190,36 +190,39 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Form1.Designer.cs",
+              "DocumentMoniker": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Embarques\\Form1.Designer.cs",
-              "ToolTip": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Form1.Designer.cs",
+              "ToolTip": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Form1.Designer.cs",
               "RelativeToolTip": "Embarques\\Form1.Designer.cs",
               "ViewState": "AgIAAP8IAAAAAAAAAAAuwBQJAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T19:06:32.273Z"
+              "WhenOpened": "2026-06-08T19:06:32.273Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "FrmAltaTrailer.cs",
-              "DocumentMoniker": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\FrmAltaTrailer.cs",
+              "DocumentMoniker": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\FrmAltaTrailer.cs",
               "RelativeDocumentMoniker": "Embarques\\FrmAltaTrailer.cs",
-              "ToolTip": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\FrmAltaTrailer.cs",
+              "ToolTip": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\FrmAltaTrailer.cs",
               "RelativeToolTip": "Embarques\\FrmAltaTrailer.cs",
               "ViewState": "AgIAAIoCAAAAAAAAAAAzwJcCAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T18:28:15.873Z"
+              "WhenOpened": "2026-06-08T18:28:15.873Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "\\\\gabira1\\respsistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Form1.cs",
+              "DocumentMoniker": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Form1.cs",
               "RelativeDocumentMoniker": "Embarques\\Form1.cs",
               "ToolTip": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Embarques\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T18:11:42.545Z"
+              "WhenOpened": "2026-06-08T18:11:42.545Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
