@@ -52,8 +52,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -64,8 +80,7 @@
               "RelativeToolTip": "Embarques\\ConsultaEmb.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAqwDoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-01T23:10:18.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-01T23:10:18.423Z"
             },
             {
               "$type": "Document",
@@ -123,8 +138,7 @@
               "RelativeToolTip": "Embarques\\ConsPedSur.cs",
               "ViewState": "AgIAAE8AAAAAAAAAAAAqwFkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T19:17:15.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T19:17:15.78Z"
             },
             {
               "$type": "Document",
@@ -134,7 +148,7 @@
               "RelativeDocumentMoniker": "Embarques\\Form1.cs",
               "ToolTip": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Form1.cs",
               "RelativeToolTip": "Embarques\\Form1.cs",
-              "ViewState": "AgIAAPwEAAAAAAAAAIA/wIYFAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAcDAAAAAAAAAAA9wHAEAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-08T18:11:43.688Z",
               "EditorCaption": ""
@@ -148,8 +162,7 @@
               "ToolTip": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\ConsDetEmb.cs [Dise\u00F1o]",
               "RelativeToolTip": "Embarques\\ConsDetEmb.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T15:51:48.814Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-07-06T15:51:48.814Z"
             },
             {
               "$type": "Document",
@@ -161,8 +174,7 @@
               "RelativeToolTip": "Embarques\\ConsDistEmb.cs",
               "ViewState": "AgIAAJAIAAAAAAAAAAAiwKwIAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-06T15:52:05.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-06T15:52:05.22Z"
             },
             {
               "$type": "Document",
@@ -196,8 +208,7 @@
               "RelativeToolTip": "Embarques\\Form1.Designer.cs",
               "ViewState": "AgIAAP8IAAAAAAAAAAAuwBQJAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T19:06:32.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T19:06:32.273Z"
             },
             {
               "$type": "Document",
@@ -209,8 +220,7 @@
               "RelativeToolTip": "Embarques\\FrmAltaTrailer.cs",
               "ViewState": "AgIAAIoCAAAAAAAAAAAzwJcCAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T18:28:15.873Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-08T18:28:15.873Z"
             },
             {
               "$type": "Document",
@@ -221,8 +231,7 @@
               "ToolTip": "\\\\gabira1\\RespSistemas1\\SisGabWeb\\SisGabWeb\\SIPGAB\\Otros Formularios\\Embarques\\Embarques\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Embarques\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-08T18:11:42.545Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-06-08T18:11:42.545Z"
             }
           ]
         }
