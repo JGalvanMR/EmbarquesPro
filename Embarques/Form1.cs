@@ -952,7 +952,16 @@ namespace Embarques
             drawString4 = "\t\tFOLIO: " + Program.MyGlobal.NoPedido + "\t FECHA: " + DateTime.Now.ToShortDateString() + "\r\n";
             drawstring8 = "\t" + sub_cli.Trim() + "";
             drawstring9 = "HORA DE EMISION: " + dt.ToString("T").Trim() + "\r\n";
-            drawstring10 = "\tTRANSPORTISTA: " + MnomProv.Trim() + "\t CARTA PORTE: " + txttalonemb.Trim() + "";
+            // Evita que la linea TRANSPORTISTA/CARTA PORTE invada "IRAPUATO GTO." (x=540):
+            // si no cabe, se recorta el nombre del transportista con puntos suspensivos.
+            string transp = MnomProv.Trim();
+            string cartaPorte = "\t CARTA PORTE: " + txttalonemb.Trim();
+            drawstring10 = "\tTRANSPORTISTA: " + transp + cartaPorte;
+            while (transp.Length > 1 && e.Graphics.MeasureString(drawstring10, drawFont).Width > 530)
+            {
+                transp = transp.Substring(0, transp.Length - 1);
+                drawstring10 = "\tTRANSPORTISTA: " + transp.TrimEnd() + "..." + cartaPorte;
+            }
             drawstring11 = "IRAPUATO GTO.\r\n\r\n";
             drawstring12 = "\tDETALLE DE LA ORDEN DE VENTA\r\n" +
                                 "Linea     Producto  \t\t\t\t\t\t\t                 |  Pedido  |  Tar. Aprox.  |  Obs  \t\t\t|  Tarima\r\n\r\n";
@@ -5195,7 +5204,16 @@ namespace Embarques
             drawString4 = "\t\tFOLIO: " + Program.MyGlobal.NoPedido + "\t FECHA: " + DateTime.Now.ToShortDateString() + "\r\n";
             drawstring8 = "\t" + sub_cli.Trim() + "";
             drawstring9 = "HORA DE EMISION: " + dt.ToString("T").Trim() + "\r\n";
-            drawstring10 = "\tTRANSPORTISTA: " + MnomProv.Trim() + "\t CARTA PORTE: " + txttalonemb.Trim() + "";
+            // Evita que la linea TRANSPORTISTA/CARTA PORTE invada "IRAPUATO GTO." (x=540):
+            // si no cabe, se recorta el nombre del transportista con puntos suspensivos.
+            string transp = MnomProv.Trim();
+            string cartaPorte = "\t CARTA PORTE: " + txttalonemb.Trim();
+            drawstring10 = "\tTRANSPORTISTA: " + transp + cartaPorte;
+            while (transp.Length > 1 && e.Graphics.MeasureString(drawstring10, drawFont).Width > 530)
+            {
+                transp = transp.Substring(0, transp.Length - 1);
+                drawstring10 = "\tTRANSPORTISTA: " + transp.TrimEnd() + "..." + cartaPorte;
+            }
             drawstring11 = "IRAPUATO GTO.\r\n\r\n";
 
             drawstring12 = "\tDETALLE DE LA ORDEN DE VENTA\r\n" +
