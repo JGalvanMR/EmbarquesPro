@@ -952,7 +952,16 @@ namespace Embarques
             drawString4 = "\t\tFOLIO: " + Program.MyGlobal.NoPedido + "\t FECHA: " + DateTime.Now.ToShortDateString() + "\r\n";
             drawstring8 = "\t" + sub_cli.Trim() + "";
             drawstring9 = "HORA DE EMISION: " + dt.ToString("T").Trim() + "\r\n";
-            drawstring10 = "\tTRANSPORTISTA: " + MnomProv.Trim() + "\t CARTA PORTE: " + txttalonemb.Trim() + "";
+            // Evita que la linea TRANSPORTISTA/CARTA PORTE invada "IRAPUATO GTO." (x=540):
+            // si no cabe, se recorta el nombre del transportista con puntos suspensivos.
+            string transp = MnomProv.Trim();
+            string cartaPorte = "\t CARTA PORTE: " + txttalonemb.Trim();
+            drawstring10 = "\tTRANSPORTISTA: " + transp + cartaPorte;
+            while (transp.Length > 1 && e.Graphics.MeasureString(drawstring10, drawFont).Width > 530)
+            {
+                transp = transp.Substring(0, transp.Length - 1);
+                drawstring10 = "\tTRANSPORTISTA: " + transp.TrimEnd() + "..." + cartaPorte;
+            }
             drawstring11 = "IRAPUATO GTO.\r\n\r\n";
             drawstring12 = "\tDETALLE DE LA ORDEN DE VENTA\r\n" +
                                 "Linea     Producto  \t\t\t\t\t\t\t                 |  Pedido  |  Tar. Aprox.  |  Obs  \t\t\t|  Tarima\r\n\r\n";
@@ -3993,7 +4002,7 @@ namespace Embarques
             excel.Cells[7, 1] = "No."; excel.Cells[7, 2] = "Fecha"; excel.Cells[7, 3] = "Turno"; excel.Cells[7, 4] = "Sup. Carga"; excel.Cells[7, 5] = "Temp"; excel.Cells[7, 6] = "Hr.Llego"; excel.Cells[7, 7] = "Hr.Entro";
             excel.Cells[7, 8] = "Hr.Salio"; excel.Cells[7, 9] = "Tiempo Total"; excel.Cells[7, 10] = "Chofer"; excel.Cells[7, 11] = "Destino"; excel.Cells[7, 12] = "Ini. Carga"; excel.Cells[7, 13] = "Fin. Carga";
             excel.Cells[7, 14] = "Tiempo Carga"; excel.Cells[7, 15] = "Anden"; excel.Cells[7, 16] = "Transporte"; excel.Cells[7, 17] = "Placa Caja"; excel.Cells[7, 18] = "Placa Trailer"; excel.Cells[7, 19] = "Radio";
-            excel.Cells[7, 20] = "OBS. TRANSPORTE"; excel.Cells[7, 21] = "CAUSA"; excel.Cells[7, 22] = "FALTANTES"; excel.Cells[7, 23] = "ELABORO"; excel.Cells[7, 24] = "Hora Estimada Salida Ventas"; excel.Cells[7,25]="OBS. TARDE";
+            excel.Cells[7, 20] = "OBS. TRANSPORTE"; excel.Cells[7, 21] = "CAUSA"; excel.Cells[7, 22] = "FALTANTES"; excel.Cells[7, 23] = "ELABORO"; excel.Cells[7, 24] = "Hora Estimada Salida Ventas"; excel.Cells[7, 25] = "OBS. TARDE";
             r = excel.Range[excel.Cells[7, 1], excel.Cells[7, 25]];
             r.Font.Bold = true;
             //for (i = 0; i < dataGridView1.Rows.Count; i++)
@@ -5195,7 +5204,16 @@ namespace Embarques
             drawString4 = "\t\tFOLIO: " + Program.MyGlobal.NoPedido + "\t FECHA: " + DateTime.Now.ToShortDateString() + "\r\n";
             drawstring8 = "\t" + sub_cli.Trim() + "";
             drawstring9 = "HORA DE EMISION: " + dt.ToString("T").Trim() + "\r\n";
-            drawstring10 = "\tTRANSPORTISTA: " + MnomProv.Trim() + "\t CARTA PORTE: " + txttalonemb.Trim() + "";
+            // Evita que la linea TRANSPORTISTA/CARTA PORTE invada "IRAPUATO GTO." (x=540):
+            // si no cabe, se recorta el nombre del transportista con puntos suspensivos.
+            string transp = MnomProv.Trim();
+            string cartaPorte = "\t CARTA PORTE: " + txttalonemb.Trim();
+            drawstring10 = "\tTRANSPORTISTA: " + transp + cartaPorte;
+            while (transp.Length > 1 && e.Graphics.MeasureString(drawstring10, drawFont).Width > 530)
+            {
+                transp = transp.Substring(0, transp.Length - 1);
+                drawstring10 = "\tTRANSPORTISTA: " + transp.TrimEnd() + "..." + cartaPorte;
+            }
             drawstring11 = "IRAPUATO GTO.\r\n\r\n";
 
             drawstring12 = "\tDETALLE DE LA ORDEN DE VENTA\r\n" +

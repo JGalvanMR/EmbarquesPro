@@ -2220,7 +2220,7 @@ namespace Embarques
                 thisConnecion.Open();
             }
             ThisConnecUERP.Open();
-            string Cadena = "SELECT A.emb_folio, A.no_lote, A.prod_clave, A.cajas, A.tarima, A.tipo_rec, A.recibo, B.prod_nombre, B.fecha_cad, B.pti_fecha, C.fechacad " +
+            string Cadena = "SELECT DISTINCT A.emb_folio, A.no_lote, A.prod_clave, A.cajas, A.tarima, A.tipo_rec, A.recibo, B.prod_nombre, B.fecha_cad, B.pti_fecha, C.fechacad " +
                             "FROM tb_det_embarque A " +
                             "LEFT JOIN tb_det_trazabilidad B ON A.recibo = B.recibo AND A.prod_clave = B.prod_clave AND A.tarima = B.tarima " +
                             "LEFT JOIN tb_det_eti_final C ON A.recibo = C.folio  AND A.prod_clave = C.cve_prod  AND A.tarima = C.tarima " +

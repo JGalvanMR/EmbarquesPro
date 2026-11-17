@@ -38,11 +38,12 @@ namespace Embarques
 
             string bd = "tb_mstr_pedidos_nal";
             thisConnecion.Open();
-            if (Convert.ToInt32(embarque) < 400000) {
+            if (Convert.ToInt32(embarque) < 400000)
+            {
                 bd = "tb_mstr_pedidos_exp";
             }
             pdn_origen = embarque;
-            string Cadena = "SELECT pdn_pedorigen FROM "+bd+" WHERE pdn_folio = '" + embarque.Trim() + "'";
+            string Cadena = "SELECT pdn_pedorigen FROM " + bd + " WHERE pdn_folio = '" + embarque.Trim() + "'";
             SqlCommand cmd;
             cmd = new SqlCommand(Cadena);
             cmd.Connection = thisConnecion;
@@ -86,10 +87,11 @@ namespace Embarques
                 BtnImp.Visible = true;
 
             }
-            else {
+            else
+            {
                 Emergency.Visible = true;
                 BtnImp.Visible = false;
-            
+
             }
 
         }
@@ -140,10 +142,11 @@ namespace Embarques
             if (etiqueta != "")
             {
                 string estado = "";
-                
+
                 string impr_blancas = "";
 
-                if (destino.Length > 9) {
+                if (destino.Length > 9)
+                {
                     destino = destino.Substring(0, 9);
                 }
 
@@ -154,14 +157,14 @@ namespace Embarques
                 impr_blancas += "^CFB,25\n";
                 impr_blancas += "^FO150,103^A0N,70,70,^FD" + destino + "^FS\n";
                 impr_blancas += "^FO150,170^A0N,100,100,^FD" + embarque + "^FS\n";
-                impr_blancas += "^FO150,258^A0N,80,80,^FDSPLIT: "+ nosplit +"^FS\n";
-                impr_blancas += "^FO200,328^BQN,7,7^FDLA,"+etiqueta+"^FS\n";
+                impr_blancas += "^FO150,258^A0N,80,80,^FDSPLIT: " + nosplit + "^FS\n";
+                impr_blancas += "^FO200,328^BQN,7,7^FDLA," + etiqueta + "^FS\n";
                 impr_blancas += "^FO150,530^BY1,^BCN,80,N,N,N^FD" + etiqueta + "^FS\n";
                 impr_blancas += "^FO150,640^GB300,1,3^FS\n";
                 impr_blancas += "^XZ\n";
 
 
-                
+
 
                 PrintDialog pd = new PrintDialog();
                 pd.PrinterSettings = new PrinterSettings();
@@ -343,7 +346,7 @@ namespace Embarques
             String drawstring8 = " ", drawstring9 = " ", drawstring10 = " ", drawstring11 = " ", drawstring12 = " ", drawstring13 = " ";
             DateTime dt = DateTime.Now;
             //int cont = 148, cont1 = 165;
-            
+
 
             /*if (destino.Length > 9)
             {
@@ -375,7 +378,7 @@ namespace Embarques
             drawString2 = "_________________________________________________________________________________________________________________________________________";
 
             #region
-            
+
             BarcodeLib.Barcode.QRCode QR = new BarcodeLib.Barcode.QRCode();
             CreaQr(etiqueta);//Genera Codigo QR
             CREAR128(etiqueta);//Genera Codigo de Barras CODE 128
@@ -388,7 +391,7 @@ namespace Embarques
             e.Graphics.DrawString(drawString3, dfCajas, drawBrush, drawPoint3);//SPLIT
             //e.Graphics.DrawString("\t", drawFont, drawBrush, 00.0f, 85.0f);//linea3
 
-            string dsEtiqueta = "CAJAS: "+DGDatos.CurrentRow.Cells["cajas"].Value.ToString().Trim();
+            string dsEtiqueta = "CAJAS: " + DGDatos.CurrentRow.Cells["cajas"].Value.ToString().Trim();
             e.Graphics.DrawString(dsEtiqueta, dfCajas, drawBrush, dpCajas);//CAJAS
 
             e.Graphics.DrawImage(CodeQR.Image, 37.5F, 90, 200, 200);
@@ -439,35 +442,36 @@ namespace Embarques
 
         }
 
-        private void CREAR128(string Folio) { 
-        BarcodeLib.Barcode.Linear barcode = new BarcodeLib.Barcode.Linear();
-        barcode.Type = BarcodeType.CODE128;
-        barcode.Data = Folio;
-    
-        barcode.UOM = UnitOfMeasure.PIXEL;
-        barcode.BarWidth = 1;
-        barcode.BarHeight = 80;
-        barcode.LeftMargin = 10;
-        barcode.RightMargin = 10;
-        barcode.TopMargin = 10;
-        barcode.BottomMargin = 10;
-    
-        barcode.ImageFormat = System.Drawing.Imaging.ImageFormat.Png;    
-        // more barcode settings here
-                            
-        // save barcode image into your system
-        barcode.drawBarcode("c://barcode.png");
-    
-        // generate barcode & output to byte array
-        byte[] barcodeInBytes = barcode.drawBarcodeAsBytes();
-    
-        // generate barcode to Graphics object
+        private void CREAR128(string Folio)
+        {
+            BarcodeLib.Barcode.Linear barcode = new BarcodeLib.Barcode.Linear();
+            barcode.Type = BarcodeType.CODE128;
+            barcode.Data = Folio;
+
+            barcode.UOM = UnitOfMeasure.PIXEL;
+            barcode.BarWidth = 1;
+            barcode.BarHeight = 80;
+            barcode.LeftMargin = 10;
+            barcode.RightMargin = 10;
+            barcode.TopMargin = 10;
+            barcode.BottomMargin = 10;
+
+            barcode.ImageFormat = System.Drawing.Imaging.ImageFormat.Png;
+            // more barcode settings here
+
+            // save barcode image into your system
+            barcode.drawBarcode("c://barcode.png");
+
+            // generate barcode & output to byte array
+            byte[] barcodeInBytes = barcode.drawBarcodeAsBytes();
+
+            // generate barcode to Graphics object
 
 
-        MemoryStream ms = new MemoryStream(barcodeInBytes, 0, barcodeInBytes.Length);
-        ms.Write(barcodeInBytes, 0, barcodeInBytes.Length);
-        Image newImage = Image.FromStream(ms, true);//Exception occurs here
-        Code128.Image = newImage;
+            MemoryStream ms = new MemoryStream(barcodeInBytes, 0, barcodeInBytes.Length);
+            ms.Write(barcodeInBytes, 0, barcodeInBytes.Length);
+            Image newImage = Image.FromStream(ms, true);//Exception occurs here
+            Code128.Image = newImage;
         }
 
 
@@ -523,10 +527,10 @@ namespace Embarques
             //qrbarcode.drawBarcode(stream);
         }
 
-		private void ImprimirSplit_Load(object sender, EventArgs e)
-		{
+        private void ImprimirSplit_Load(object sender, EventArgs e)
+        {
 
-		}
+        }
 
         List<string> listDetalleSplit = new List<string>();
         List<string> getDetalleSplit(string nom_capsplit, string emb_folio, string tarima)
@@ -568,6 +572,6 @@ namespace Embarques
             thisConnecion.Close();
             return listCajasSplit;
         }
-        
-	}
+
+    }
 }
